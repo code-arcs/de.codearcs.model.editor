@@ -1,0 +1,23 @@
+{
+  "name": "jsgraph",
+  "version": "0.0.0",
+  "authors": [
+    "Stephan Köninger <mail@stekoe.de>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.6",
+    "angular": "~1.4.7"
+  }
+}
