@@ -2,7 +2,8 @@
   "name": "jsgraph",
   "version": "0.0.0",
   "authors": [
-    "Stephan Köninger <mail@stekoe.de>"
+    "Stephan Köninger <mail@stekoe.de>",
+    "Lukas Graessle <lukas.graessle@web.de>"
   ],
   "description": "",
   "main": "",
@@ -17,7 +18,6 @@
     "tests"
   ],
   "dependencies": {
-    "d3": "~3.5.6",
-    "angular": "~1.4.7"
+    "d3": "~3.5.6"
   }
 }

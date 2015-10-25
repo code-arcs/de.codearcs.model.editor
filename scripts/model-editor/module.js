@@ -1,1 +1,0 @@
-angular.module('de.devjs.modelEditor', []);

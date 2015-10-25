@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <title></title>
 </head>
-<body ng-app="de.devjs.modelEditor">
-    <model-editor width="640" height="480"></model-editor>
+<body>
+
+    <svg width="720" height="120">
+        <circle cx="40" cy="60" r="10"></circle>
+        <circle cx="80" cy="60" r="10"></circle>
+        <circle cx="120" cy="60" r="10"></circle>
+    </svg>
 
     <script src="vendors/d3/d3.min.js"></script>
-    <script src="vendors/angular/angular.min.js"></script>
 
-    <script src="scripts/model-editor/module.js"></script>
-    <script src="scripts/model-editor/src/directives/modelEditor.js"></script>
-    <script src="scripts/model-editor/src/services/diagramObjectFactory.js"></script>
+    <script src="scripts/model-editor/editor.js"></script>
 </body>
 </html>
